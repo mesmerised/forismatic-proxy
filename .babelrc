@@ -1,0 +1,24 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+            "@app": "./src/",
+            "@modules": "./src/modules"
+        }
+      }
+    ]
+  ]
+}
