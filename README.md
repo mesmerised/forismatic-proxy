@@ -21,6 +21,11 @@ Refer to the original [forismatic api](https://forismatic.com/en/api/) docs for 
 
 The `jsonp` and `format` query param from the forismatic api is intentionally not supported to make `json` as the consistent default response format. Also, the `method` param is defaulted to `getQuote`, as it is the only available supported value by the api.
 
+## Who's using it
+- [mesmerized](https://mesmerized.me/) - Transform your browser tabs
+
+Built something cool using this? Submit a PR to add it to this section.
+
 ## Contributions
 Fork the project
 Commit your enhancements and bug fixes
